@@ -1,25 +1,25 @@
 class Pulse < Formula
   desc "Fast, persistent MQTT v5 broker for Rust-powered systems"
   homepage "https://github.com/PieceOfFall/Pulse"
-  version "1.3.4"
+  version "1.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/PieceOfFall/Pulse/releases/download/1.3.4/Pulse-aarch64-apple-darwin.tar.xz"
-      sha256 "270fb89e067ba6769c319fc88508e2abf64e5a46fd7c6436828742ea9dc01621"
+      url "https://github.com/PieceOfFall/Pulse/releases/download/1.4.0/Pulse-aarch64-apple-darwin.tar.xz"
+      sha256 "cc2cc635467e966e32063cc1e2a57514b5201197fcf7a47e50abbdaf1833501a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/PieceOfFall/Pulse/releases/download/1.3.4/Pulse-x86_64-apple-darwin.tar.xz"
-      sha256 "4358a8b274c006ab7b133393f4e3ce6aa4ce425ebd90ed9893787c9d5bbfe26d"
+      url "https://github.com/PieceOfFall/Pulse/releases/download/1.4.0/Pulse-x86_64-apple-darwin.tar.xz"
+      sha256 "a35df3612e3556c4ba48be901051e89c702f6e4ccd1fa0294f8e4695a66cc3e6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/PieceOfFall/Pulse/releases/download/1.3.4/Pulse-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "43fac78c77c20efb64dc13b8e71892125e975f5b5c727fa08530495d433262ce"
+      url "https://github.com/PieceOfFall/Pulse/releases/download/1.4.0/Pulse-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "070088cad8fe74a69f91b56109f26d28ea568c285d24fbea1391d595a5c9cce1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/PieceOfFall/Pulse/releases/download/1.3.4/Pulse-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e36224f9a89cbf251a834a7f6a8c3b09c4649b91880dd6a013c7c884bf8ba9d4"
+      url "https://github.com/PieceOfFall/Pulse/releases/download/1.4.0/Pulse-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "352ca70ff9db798694b826a2ff553a2b9a63a6e8db1027994f267d739c878b9e"
     end
   end
 
